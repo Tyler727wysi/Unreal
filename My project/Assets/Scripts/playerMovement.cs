@@ -27,7 +27,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
             playerPosition.x += horizontalInput;
         }
 
-        else if (verticalInput != 0)
+        if (verticalInput != 0)
         {
             playerPosition.z += verticalInput;
         }
